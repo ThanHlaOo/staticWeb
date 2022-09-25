@@ -1,0 +1,439 @@
+.con {
+  padding-top: 53px;
+  padding-bottom: 11px;
+  background: #F7F7F7;
+}
+
+.con-ttl {
+  color: #2E2E22;
+}
+
+.con-p-1,
+.con-p-2 {
+  line-height: 24px;
+  color: #2E2E22;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.con-p-1 {
+  padding-top: 33px;
+}
+
+.con-p-2 {
+  padding-top: 0px;
+}
+
+.con-list {
+  margin: 24px 0;
+  list-style-type: none;
+}
+
+.con-list li,
+.list-span {
+  line-height: 24px;
+  color: #354E57;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.list-span {
+  color: #FF8800;
+}
+
+.con-list li::before {
+  width: 2px;
+  margin-right: 5px;
+  color: #354E57;
+  font-size: 16px;
+  content: '\2022';
+}
+
+.con-blk-list {
+  margin: 16.5px 30px;
+}
+
+.con-blk-list li {
+  float: left;
+  width: 46.4%;
+  margin: 20px;
+}
+
+.con-blk-list li:nth-child(2n) {
+  margin-right: 0;
+}
+
+.con-blk {
+  width: 100%;
+  height: 259px;
+  background-color: #FFFFFF;
+}
+
+.em-list {
+  padding-top: 10px;
+}
+
+.em-list li {
+  float: left;
+  width: 100%;
+  margin-bottom: 1.3px;
+  padding-left: 24px;
+}
+
+.em-list li:nth-child(1n) {
+  margin-right: 0;
+}
+
+.em-dp {
+  line-height: 24px;
+  color: #2E2E22;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.em-lk a {
+  line-height: 24px;
+  color: #354E57;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.cpn {
+  padding-top: 30px;
+  padding-left: 47px;
+}
+
+.cpn-name {
+  line-height: 24px;
+  color: #2E2E22;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cpn-add {
+  line-height: 24px;
+  margin: 23px 0;
+  color: #2E2E22;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.cpn-ph a {
+  line-height: 24px;
+  color: #2E2E22;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+/*  Ipad  */
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+
+  .con {
+    padding-top: 6.51vw;
+    padding-bottom: 2.604vw;
+    background: #F7F7F7;
+  }
+
+  .con-ttl {
+    color: #2E2E22;
+  }
+
+  .con-p-1,
+  .con-p-2 {
+    line-height: 3.125vw;
+    color: #2E2E22;
+    font-family: Roboto;
+    font-size: 2.083vw;
+    font-weight: 400;
+  }
+
+  .con-p-1 {
+    padding-top: 4.557vw;
+  }
+
+  .con-p-2 {
+    padding-top: 0.391vw;
+  }
+
+  .con-list {
+    margin: 2.995vw 0;
+    list-style-type: none;
+  }
+
+  .con-list li,
+  .list-span {
+    line-height: 3.125vw;
+    color: #354E57;
+    font-family: Roboto;
+    font-size: 2.083vw;
+    font-weight: 700;
+  }
+
+  .list-span {
+    color: #FF8800;
+  }
+
+  .con-list li::before {
+    width: 0.26vw;
+    margin-right: 0.651vw;
+    color: #354E57;
+    font-size: 2.083vw;
+    content: '\2022';
+  }
+
+  .con-blk-list {
+    margin: 2.083vw 4.167vw;
+  }
+
+  .con-blk-list li {
+    float: left;
+    width: 83%;
+    margin-top: 3.516vw;
+    margin-right: 6.901vw;
+    margin-bottom: 1.693vw;
+    margin-left: 6.901vw;
+  }
+
+  .con-blk-list li:nth-child(1n) {
+    margin-right: 0;
+  }
+
+  .con-blk {
+    width: 100%;
+    height: 33.854vw;
+    background-color: #FFFFFF;
+  }
+
+  .em-list {
+    padding-top: 1.302vw;
+  }
+
+  .em-list li {
+    float: left;
+    width: 100%;
+    margin-top: 2.995vw;
+    margin-bottom: -0.326vw;
+    margin-left: 2.214vw;
+  }
+
+  .em-list li:nth-child(1n) {
+    margin-right: 0;
+  }
+
+  .em-dp {
+    line-height: 3.125vw;
+    color: #2E2E22;
+    font-family: Roboto;
+    font-size: 2.083vw;
+    font-weight: 700;
+  }
+
+  .em-lk a {
+    line-height: 3.125vw;
+    color: #354E57;
+    font-family: Roboto;
+    font-size: 2.083vw;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  .cpn {
+    padding-top: 4.167vw;
+    padding-left: 6.25vw;
+  }
+
+  .cpn-name {
+    line-height: 3.125vw;
+    color: #2E2E22;
+    font-family: Roboto;
+    font-size: 2.083vw;
+    font-weight: 700;
+  }
+
+  .cpn-add {
+    line-height: 3.125vw;
+    margin: 3.125vw 0;
+    color: #2E2E22;
+    font-family: Roboto;
+    font-size: 2.083vw;
+    font-weight: 52.083vw;
+  }
+
+  .cpn-ph a {
+    line-height: 3.125vw;
+    color: #2E2E22;
+    font-family: Roboto;
+    font-size: 2.083vw;
+    font-weight: 52.083vw;
+  }
+
+}
+
+/*  SP  */
+@media screen and (max-width:767.9px) {
+
+  footer .footer-banner .brand-txt {
+    position: relative;
+    margin-left: 0;
+    padding: 7.469vw 0 3.125vw;
+    font-size: 5vw;
+    font-weight: 700;
+    text-indent: 0;
+    text-align: left;
+    border-right: none;
+  }
+
+  .leave {
+    height: 11.406vw;
+  }
+
+  .con {
+    padding-top: 17.969vw;
+    padding-bottom: 1.719vw;
+    background: #F7F7F7;
+  }
+
+  .con-ttl {
+    color: #2E2E22;
+  }
+
+  .con-p-1,
+  .con-p-2 {
+    line-height: 3.75vw;
+    color: #2E2E22;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: 400;
+  }
+
+  .con-p-1 {
+    padding-top: 5.625vw;
+  }
+
+  .con-p-2 {
+    padding-top: 0.469vw;
+  }
+
+  .no-sp-txt {
+    display: none;
+  }
+
+  .con-list {
+    margin: 3.594vw 0;
+    list-style-type: none;
+  }
+
+  .con-list li,
+  .list-span {
+    line-height: 3.75vw;
+    color: #354E57;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: 700;
+  }
+
+  .list-span {
+    color: #FF8800;
+  }
+
+  .con-list li::before {
+    width: 0.313vw;
+    margin-right: 0.781vw;
+    color: #354E57;
+    font-size: 2.5vw;
+    content: '\2022';
+  }
+
+  .con-blk-list {
+    margin: 6.25vw 4.688vw;
+  }
+
+  .con-blk-list li {
+    float: left;
+    width: 95%;
+    margin-top: 2.656vw;
+    margin-right: 2.656vw;
+    margin-bottom: 3.281vw;
+    margin-left: 2.656vw;
+  }
+
+  .con-blk-list li:nth-child(1n) {
+    margin-right: 0;
+  }
+
+  .con-blk {
+    width: 100%;
+    height: 40.469vw;
+    background-color: #FFFFFF;
+  }
+
+  .em-list {
+    padding-top: 1.875vw;
+  }
+
+  .em-list li {
+    float: left;
+    width: 100%;
+    margin-bottom: 0.625vw;
+    padding-left: 2.969vw;
+  }
+
+  .em-list li:nth-child(1n) {
+    margin-right: 0;
+  }
+
+  .em-dp {
+    line-height: 3.75vw;
+    color: #2E2E22;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: 700;
+  }
+
+  .em-lk a {
+    line-height: 3.75vw;
+    color: #354E57;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  .cpn {
+    padding-top: 5.078vw;
+    padding-left: 6.563vw;
+  }
+
+  .cpn-name {
+    line-height: 3.75vw;
+    color: #2E2E22;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: 700;
+  }
+
+  .cpn-add {
+    line-height: 3.75vw;
+    margin: 3.594vw 0;
+    color: #2E2E22;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: 62.5vw;
+  }
+
+  .cpn-ph a {
+    line-height: 3.75vw;
+    color: #2E2E22;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: 62.5vw;
+  }
+}
